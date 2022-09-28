@@ -5,7 +5,7 @@ from penrose import PenroseP3, BtileL, psi
 # A simple example starting with a BL tile
 
 scale = 100
-tiling = PenroseP3(scale, ngen=5)
+tiling = PenroseP3(scale, ngen=3)
 
 theta = 2*math.pi / 5
 rot = math.cos(theta) + 1j*math.sin(theta)
